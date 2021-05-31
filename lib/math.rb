@@ -13,7 +13,7 @@ end
 subtraction(3, 2)
 
 def division(num1, num2)
-  div = num2.to_f / num1.to_f
+  div = num1.to_f / num2.to_f
   return div
 end
 
@@ -27,7 +27,7 @@ end
 multiplication(2, 3)
 
 def modulo(num1, num2)
-  remainder = num2.to_i % num1.to_i
+  remainder = num1.to_i % num2.to_i
   return remainder
 end
 
